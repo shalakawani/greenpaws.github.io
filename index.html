@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vegan Dog Delights</title>
+<style>
+  body, html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 20px;
+    background-color: #33691e;
+    color: white;
+  }
+  .logo img {
+    height: 150px;
+  }
+  .company-name {
+    font-size: 44px; /* Made bigger */
+    font-weight: bold; /* Made bold */
+    text-align: center;
+  }
+  .motto {
+    text-align: center;
+    font-style: italic;
+  }
+  .hero {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+  }
+  .hero video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .mission-vision-section {
+    display: flex;
+    justify-content: center; /* Centers the content */
+    align-items: center; /* Aligns items vertically */
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center; /* Text aligned to the center */
+  }
+  .mission-vision-text {
+    max-width: 60%; /* Limits the width and centers the text */
+  }
+  .mission-vision-text h2, .mission-vision-text p {
+    margin: 0;
+    padding: 10px 0;
+    font-size: larger;
+  }
+  .benefits {
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto;
+    width: 80%;
+    background-color: #e8f5e9;
+  }
+  .benefits-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  .benefit-item {
+    flex-basis: 22%;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .benefit-item img {
+    max-width: 110%;
+    height: auto;
+    object-fit: cover;
+  }
+  .order-now-btn {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #558b2f;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  .footer {
+    background-color: #33691e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="logo">
+    <img src="images/logo.webp" alt="GreenPaws Logo">
+  </div>
+  <div>
+    <span class="company-name"> GreenPaws</span><br>
+    <span class="motto">Happier paws and greener world!</span>
+  </div>
+</div>
+
+<div class="hero">
+  <video autoplay loop muted>
+    <source src="video/video2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<div class="mission-vision-section">
+  <div class="mission-vision-text">
+    <h2>Vision and Mission</h2>
+    <p>At GreenPaws, we're driven by a vision to revolutionize pet nutrition through sustainability. Our mission, to create high-quality, sustainable, vegan dog food, is more than just a business goal—it's a commitment to improving the health of pets and the planet. By focusing on plant-based recipes that provide complete nutrition, we aim to reduce environmental impact and promote animal welfare. Our approach is rooted in the belief that every pet deserves the best possible nutrition, and every pet owner should have access to sustainable choices that contribute to a greener world.</p>
+  </div>
+</div>
+
+<div class="benefits" id="benefits">
+  <h2>Why Choose GreenPaws?</h2>
+  <div class="benefits-container">
+    <div class="benefit-item">
+      <img src="images/cheap.webp" alt="Cost-effective">
+      <h2>Affordable</h2>
+      <p>More for less</p>
+    </div>
+    <div class="benefit-item">
+      <img src="images/sustainable.webp" alt="Sustainability">
+      <h2>Sustainable</h2>
+      <p>Greener planet</p>
+    </div>
+    <div class="benefit-item">
+      <img src="images/shelflife.webp" alt="Longer Shelf Life">
+      <h2>Longer Shelf-Life</h2>
+      <p>Lasts longer</p>
+    </div>
+    <div class="benefit-item">
+      <img src="images/odourless.webp" alt="Odor-free">
+      <h2>Odor-Free</h2>
+      <p>No smell</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <a href="content.html" class="order-now-btn">Order Now</a>
+  <p>© 2024 GreenPaws. All rights reserved.</p>
+</div>
+
+</body>
+</html>

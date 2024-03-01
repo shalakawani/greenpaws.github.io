@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vegan Dog Delights</title>
+<style>
+  body, html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 20px;
+    background-color: #33691e;
+    color: white;
+  }
+  .logo img {
+    height: 150px;
+  }
+  .company-name {
+    font-size: 44px; /* Made bigger */
+    font-weight: bold; /* Made bold */
+    text-align: center;
+  }
+  .motto {
+    text-align: center;
+    font-style: italic;
+  }
+  .hero {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+  }
+  .hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .order-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  .product {
+    display: inline-block;
+    margin: 10px;
+    width: calc(33% - 20px);
+    background-color: #e8f5e9;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .product img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .add-to-cart-btn {
+    display: block;
+    width: auto;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #558b2f;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .footer {
+    background-color: #33691e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="logo">
+    <img src="images/logo.webp" alt="GreenPaws Logo">
+  </div>
+  <div>
+    <span class="company-name">GreenPaws</span><br>
+    <span class="motto">Happier paws and greener world!</span>
+  </div>
+</div>
+
+<div class="hero">
+  <img src="images/mission.webp" alt="Happy Dogs">
+</div>
+
+<div class="order-section">
+  <h2>Order Here</h2>
+  <div class="product">
+    <img src="images/chicken.jpg" alt="Vegan Chicken">
+    <h3>Vegan Chicken</h3>
+    <p>Delicious and healthy alternative to chicken.</p>
+    <span>$19.99</span>
+    <a href="#" class="add-to-cart-btn">Add to Cart</a>
+  </div>
+  <div class="product">
+    <img src="images/turkey.jpg" alt="Vegan Turkey">
+    <h3>Vegan Turkey</h3>
+    <p>Perfect for festive seasons or any meal.</p>
+    <span>$20.99</span>
+    <a href="#" class="add-to-cart-btn">Add to Cart</a>
+  </div>
+  <div class="product">
+    <img src="images/beef.jpg" alt="Vegan Beef">
+    <h3>Vegan Beef</h3>
+    <p>Tastes like beef, but better for the planet.</p>
+    <span>$21.99</span>
+    <a href="#" class="add-to-cart-btn">Add to Cart</a>
+  </div>
+</div>
+
+<div class="footer">
+  <p>© 2024 GreenPaws. All rights reserved.</p>
+</div>
+
+</body>
+</html>
